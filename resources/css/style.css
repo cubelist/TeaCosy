@@ -106,15 +106,23 @@ header nav span {
 
 .panel-3-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
 }
 
-.panel-3-board-holder {
+.location-strap {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0px 15px 0px;
+}
+
+.panel-3-board-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .panel-3-board {
@@ -124,7 +132,7 @@ header nav span {
   opacity: 1;
   width: 300px;
   height: 300px;
-  margin: 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 .panel-3-container .panel-3-board > * {
