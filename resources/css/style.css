@@ -1,0 +1,41 @@
+/*Global Style*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/*Header styling*/
+
+header {
+  display:flex;
+  /*position: fixed;
+  z-index: 1;*/
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+}
+
+/*.header-items {
+
+}*/
+
+.logo-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo-container img {
+  height: 50px;
+  width: 157px;
+  padding: 10px;
+}
+
+header nav span {
+  display: inline-block;
+  text-decoration: underline;
+}
