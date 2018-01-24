@@ -14,15 +14,11 @@ header {
   display:flex;
   /*position: fixed;
   z-index: 1;*/
-  height: 69px;
+  height: 68px;
   border-bottom: 1px solid seashell;
   width: 100%;
   align-items: center;
 }
-
-/*.header-items {
-
-}*/
 
 .logo-container {
   display: flex;
@@ -38,4 +34,19 @@ header {
 header nav span {
   display: inline-block;
   text-decoration: underline;
+}
+
+/* Main Body Styling*/
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panel1-container {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 800px;
+  width: 1200px;
 }
