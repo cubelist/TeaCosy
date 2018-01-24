@@ -6,6 +6,7 @@ body {
   color: rgb(255, 245, 238);
   background-color: black;
   opacity: 0.9;
+  margin: 0px;
 }
 
 h2,h4 {
@@ -19,6 +20,7 @@ header {
   position: fixed;
   z-index: 1;
   height: 68px;
+  margin-top: 0px;
   border-bottom: 1px solid rgb(255, 245, 238);
   width: 100%;
   align-items: center;
@@ -39,6 +41,7 @@ header {
 header nav span {
   display: inline-block;
   text-decoration: underline;
+  margin-right: 20px;
 }
 
 /* Main Body Styling*/
@@ -59,6 +62,7 @@ header nav span {
   width: 1200px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 70px;
 }
 
 .panel1-strapline-container {
@@ -80,6 +84,7 @@ header nav span {
   flex-wrap: wrap;
   justify-content: center;
   width: 80%;
+  margin-bottom: 70px;
 }
 
 .panel-2-totm-container {
@@ -95,4 +100,35 @@ header nav span {
 
 .totm-strap h4 {
   margin: 0px 10px 10px 10px;
+}
+
+/*Panel 3*/
+
+.panel-3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.panel-3-board-holder {
+    display: flex;
+}
+
+.panel-3-board {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.panel-3-container .panel-3-board > * {
+  /*padding: 10px 30px;*/
+  text-align: center;
+  margin: 20px 0px;
 }
