@@ -9,7 +9,7 @@ body {
   margin: 0px;
 }
 
-h2,h4 {
+h2,h4,h5 {
   margin: 10px;
 }
 
@@ -136,7 +136,19 @@ header nav span {
 }
 
 .panel-3-container .panel-3-board > * {
-  /*padding: 10px 30px;*/
   text-align: center;
   margin: 20px 0px;
+}
+
+/*Contact Banner*/
+
+.contact-banner {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+}
+
+.contact-banner h2 {
+  margin-bottom: 30px;
 }
